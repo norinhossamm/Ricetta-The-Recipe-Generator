@@ -1,0 +1,224 @@
+*{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+
+#LOGO{
+    width: 90px;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-left: 0%;
+
+}
+.ImgContainer{
+    border-radius: 50%;
+    padding: 0%;
+    border: #103e5b solid;
+    background-image: url("images/UserIcon.png");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#usernameH2{
+    background-color: inherit;
+    color: #103e5b;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    color: #103e5b;
+    background-color: #ec9a60;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.nav-pills>li>a,
+.nav-pills>li>a:focus{
+    color: #103e5b;
+    background-color: white;
+    border: 1.5px solid #103e5b;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.nav-pills>li>a:hover{
+    background-color: rgba(216, 141, 86,0.5);
+
+}
+
+h3{
+    /* margin-top: 15%; */
+    padding-left: 20px;
+    padding-top: 3%;
+    font-family: "Lobster", sans-serif;
+    font-style: italic;
+    font-size: 28pt;
+    color: #ec9a60 ;
+
+}
+
+hr{
+    border-top: 3px dotted #103e5b;
+}
+
+.DetailsContainer{
+    padding-left: 20px;
+}
+
+label{
+    font-size: 12pt;
+    color: #852B2A ;
+    /* float: left; */
+}
+
+#Recipename{
+    width: 35%;
+    height: 32px;
+}
+
+#fileToUpload{
+    background-color: white;
+
+}
+
+#description{
+    width: 55%;
+    height: 80px;
+}
+
+#ingredients{
+    width: 55%;
+    height: 80px;
+}
+
+#steps{
+    width: 70%;
+    height: 200px;
+}
+
+input{
+    padding: 3px;
+    text-align: center;
+    border-color: #103e5b;
+}
+
+.inputblock{
+    margin-bottom: 2%;
+}
+
+input::file-selector-button {
+    padding: 0.5em;
+    border: thin solid #103e5b;
+    border-radius: 3px;
+    background-color: white;
+    color: #103e5b;
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+input::file-selector-button:hover {
+    background-color:rgba(216, 141, 86,0.5);
+
+}
+
+textarea::placeholder{
+    padding-left: 8px ;
+    
+}
+
+.time{
+    display: flex;
+}
+
+.time.inputblock{
+    flex: 50%;
+}
+
+#preptimeblock, #cooktimeblock{
+   margin-right: 7%;
+} 
+
+#servings{
+    width: 120px;
+}
+
+
+.submitbtn{
+    width: 18%;
+    height: auto;
+    /* margin-top: 3%;
+    margin-left: 22%; */
+    padding: 12px 20px;
+
+    margin: 2% 15% 0% 0%;
+    
+    float: right;
+  
+    background-color: #b83e3c;
+    color: white;
+    font-size: 12pt;
+    font-weight: 500;
+    border-radius: 0.5em;
+    border: 2px solid #103e5b;
+    cursor: pointer;
+  }
+
+
+  .submitbtn:hover
+  {
+    opacity: 0.8;
+  }
+
+ #Cuisine,#Diets{
+    float: left;  
+    padding-right: 5%;
+    padding-left: 5px;  
+  }
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+}
+
+
+.error
+{
+    color:red;
+}
+
+
+.success
+{
+    color:green;
+   text-align: center;
+    font-size:large;
+    margin-right:10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

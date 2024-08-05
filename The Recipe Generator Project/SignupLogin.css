@@ -1,0 +1,317 @@
+*{
+  background-color: transparent;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  overflow-x: hidden; 
+}
+
+body{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+}
+
+.LeftHalf{
+  width: 50%;
+  height: 1500px;
+  position: absolute;
+  left: 0px;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images/LeftBackground.jpg") ;
+  background-position: center;
+  background-size: fill;
+  /* background-repeat: repeat-y; */
+  border-right: 3px solid #edbe9c ;
+
+}
+
+
+.LeftTextContainer{
+  text-align: center;
+  color: #103e5b;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 1em;
+  margin: 20% auto;    
+  padding: 25px;
+  width:68%;
+  vertical-align: middle;
+  font-size: 12pt !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  line-height: 1.5rem !important;   
+}
+
+.LeftTextContainer strong{
+  color:#D88D56;
+  font-size: 14pt;
+  font-weight: 650; font-family: "Pacifico", sans-serif;
+}
+
+.LeftTextContainer h1{
+  font-family: Caveat;
+  color: #852B2A;
+  font-size: 29pt;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  line-height: normal;
+}
+
+.LeftTextContainer p{
+  margin-top: 4%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  line-height: normal;
+
+}
+
+.LeftTextContainer ul{
+  margin-top: 3%;
+  list-style:circle inside ;
+  color: #852B2A;
+  text-align:left;
+  font-size: 11pt;
+  margin-top: 0%;
+  padding:0 18% ;  
+  width: max-content;
+}
+
+.LeftTextContainer ul li{
+  margin-top: 3%;
+  overflow: hidden; 
+}
+
+.LeftTextContainer h2{
+  font-family: Caveat;
+  color: #D88D56;
+  font-size: 26pt;
+
+  margin-top: 0%;
+  padding-bottom: 0%;
+  line-height: normal;
+}
+
+.RightHalf{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  margin: 0%;
+  background-color: white;
+  background-image: none;
+  overflow: hidden;
+}
+
+form{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  background-color: white;
+  background-image: none;
+}
+
+label{
+  font-size: 20px;
+  color: #852B2A ;
+  float: left;
+}
+
+.textbox{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #27445C;
+  box-sizing: border-box;
+}
+
+.inputblock{
+  margin: 10px 0px;
+}
+
+button{
+  width: 50%;
+  height: auto;
+
+  margin-top: 5%;
+  padding: 12px 20px;
+
+  background-color: #D88D56;
+  color: white;
+  font-size: 12pt;
+  font-weight: 500;
+  border-radius: 0.5em;
+  border: 2px solid #103e5b;
+  cursor: pointer;
+}
+
+button:hover
+{
+  opacity: 0.9;
+}
+
+#SignUpbtn{
+  background-color: white;
+  color: #852B2A;
+  border: transparent;
+  font-size: 13pt;
+  padding: 0%;
+  margin-top: 2%;
+}
+
+.ImgContainer{
+  margin: 10% 0% 2% 0%;
+  text-align: center;
+}
+
+.ImgContainerModal{
+  text-align: center;
+  margin: 5px 0px;
+  padding: 0%;
+}
+
+#Logo{
+  width: 450px;
+  height:auto;
+  text-align: center;
+  margin:0%;
+  position: relative;
+}
+
+#ModalLogo{
+  width: 450px;
+  height:auto;
+  text-align: center;
+  position: relative;
+  padding-bottom: 0%;
+}
+
+.container{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+
+#ModalContainer{
+  padding: 0% 10%;
+  margin-top: 0%;
+}
+.SignUpmodal {
+  visibility: hidden; /* Hidden by default */
+  z-index: 1; /* Sit on top */
+  width: 50%; /* Full width */
+  height: 70%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(255,255,255); 
+  padding-top: 60px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 70px;
+  border: 3px solid  #D88D56;
+  
+
+}
+
+.container div h2{
+  color: #103e5b ;
+  font-size: 20pt;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  line-height: normal;
+}
+
+.container div h4{
+  color: #D88D56 ;
+  padding-bottom: 15px;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000; font-size: 40px; font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #a23634 !important; 
+cursor: pointer;
+}
+
+.Cancelbtncontainer{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.cancelbtn{
+  text-align: center;
+  width: 20%;
+  margin-top: 3%;
+  background-color:#9e3534;
+}
+
+/* Change styles for span and cancel button on extra small screens*/
+ @media screen and (max-width: 300px) {
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.RightHalf footer {
+    padding: 60px 0;
+    size: 100%;
+    bottom: 0%;
+    color: #000;
+    background-color:beige ;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+}
+#footer-links ul {
+    width: 150px;
+    float: right;
+    margin-left: 20px;
+}
+#footer-links ul li {
+    margin: 10px 0;
+}
+#socials{
+    text-align: left;
+    float: left;
+
+
+}
+
+.errormessage{
+  text-align: left;
+  color: red;
+  size: 5pt;
+  font-size: 12px;
+  margin-top: 0px;
+
+
+  /* visibility: hidden;
+ */
+}
+
+
+
+.js-is-hidden{
+display: none;
+}

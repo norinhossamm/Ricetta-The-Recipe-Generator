@@ -1,0 +1,249 @@
+*{
+    overflow:visible;
+}
+body{
+    height: auto;
+}
+nav div h1{
+    font-size: 34pt;
+    padding-left: 3%;
+}
+
+#logotxt:hover{
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+nav div {
+    margin-top: 1%;
+
+}
+
+nav div ul {
+    right: 0%;
+    margin-left: 65%;
+}
+
+nav div ul li {
+    display: inline-block;
+    margin-right: 0px; ;
+}
+
+nav div ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 0px;
+    font-size: 12pt;
+    margin-top: 2%;
+    float: right;
+
+}
+
+ul li a:hover{
+    color: #063146 !important;
+    font-size: 15pt;
+}
+
+#searchbarBTN{
+    border: 1px solid #852B2A !important;
+    color: #852B2A !important;
+    padding: 1.8% 3% !important;
+    font-size: 11pt;
+}
+
+#searchbarBTN:hover{
+    background-color: #852B2A !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+
+.Title{
+    color:#D88D56;
+    font-size: 14pt;
+    font-weight: 650;
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.Title h1{
+    margin-left: auto;
+    font-size: 36pt;
+    border-bottom: 2px dashed #D88D56;
+    padding-bottom: 2%;
+}
+
+
+.FormContainer{
+    padding: 7%;
+    padding-bottom: 4% ;
+    background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)), url("images/1.jpeg") ;
+    background-size: cover;
+    border-radius: 1.5%;
+    margin: 2%;
+    border: 3px solid transparent;
+
+}
+
+
+section{
+    width: calc(70vw/3.5);
+    float: inherit;
+    text-align: center;
+    margin: auto;
+}
+
+section .collapse, section .card{
+    overflow-y:auto;
+    height: 170px !important;
+    border-radius: 2%;
+    padding: 0%;
+}
+
+.checkbox{
+    margin: 0% 50px;
+    text-align: left;
+    font-size: 11pt;
+    font-family: cursive;
+    color: #103e5b;    
+}
+
+button:hover,#submitbtn:hover{
+    opacity: 0.8;
+}
+
+.card-body{
+    border: 3px solid transparent; 
+}
+
+
+#submitbtn{
+    width: 18%;
+    height: auto;
+    padding: 18px 20px;
+    margin-left: 41.2%;
+    margin-top: 2%;
+    background-color: #b83e3c;
+    color: white;
+    font-size: 12pt;
+    font-weight: 500;
+    border-radius: 0.5em;
+    border: 2px solid #103e5b;
+    cursor: pointer;
+  }
+
+footer {
+    padding: 3% 0;
+    size: 100%;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+}
+#footer-links ul {
+    width: 150px;
+    float: right;
+}
+#footer-links ul li {
+    margin: 10px 0;
+    color: #852B2A;
+}
+#socials{
+    text-align: left;
+    float: left;
+}
+
+.wrapper{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 7%;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 9pt;
+}
+
+
+/* responsive media quaries*/
+@media screen and (max-width:1300px){
+    /* section{
+        width: 40%;
+        font-size: 6pt;
+    } */
+
+    section button{
+        font-size: 8pt !important;
+    }
+    #searchnav{
+        width: 60%;
+        margin-right: 0%;
+    }
+
+    #searchform , #searchbox{
+        width: 20%;
+        margin-right: 0% !important;
+    }
+
+    nav div ul{
+        margin: 0% !important;
+        margin-top: 0% !important;
+        line-height: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    nav div ul li a {
+        font-size: 7pt;   
+        margin-bottom: -25px;
+        float: left;
+        padding-top: 0% !important;
+        padding-bottom: 42% !important;
+    }
+
+    nav div ul li a:hover {
+        font-size: 9pt;   
+        margin-bottom: -25px;
+    }
+
+    nav div h1{
+        font-size: 19pt;
+    }
+
+
+}
+
+
+@media screen and (max-width:600px){
+    /* section{
+        width: 90%;
+    } */
+
+    section button{
+        font-size: 6pt !important;
+        text-align: center !important;
+    }
+
+    #searchform , #searchbox{
+        width: 20%;
+    }
+
+    nav div ul li a {
+        font-size: 7pt;   
+        margin-bottom: -25px;
+        float: left;
+        padding-top: 5px !important;
+    }
+
+    nav div ul li a:hover {
+        font-size: 9pt;   
+        margin-bottom: -25px;
+    }
+
+    nav div h1{
+        font-size: 19pt;
+    }
+}
