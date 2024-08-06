@@ -220,3 +220,17 @@ This page showcases details about the platform and its team.
  <p align="center"> 
  <img width="1440" alt="Screenshot 2024-08-06 at 12 40 05 PM" src="https://github.com/user-attachments/assets/050f959f-f81f-4c42-b7b5-06db8ed742f6">
  </p>
+
+ ## Technical Aspects:
+ 
+- HTML: Provides the basic structure of the website, creating the framework for all web pages.
+
+- CSS: Styles the website, ensuring a visually appealing and consistent user interface across different web pages.
+
+- JavaScript: Adds interactivity to the web pages, enabling dynamic features like real-time updates when users search for recipes or interact with the recipe generator.
+
+- PHP: Handles server-side logic, including processing user inputs (like ingredients for recipes), interacting with the database, and dynamically generating web pages based on user requests.
+
+- MySQL: Manages the database that stores all user data, recipe information, ingredients, and other related content, allowing for efficient data retrieval and storage.
+
+- Bootstrap: A framework used to develop responsive and mobile-friendly web pages, ensuring the website is accessible and user-friendly across various devices and screen sizes.
