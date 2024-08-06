@@ -102,7 +102,7 @@ Ricetta’s home page is visually appealing and user-friendly, offering:
 <img width="452" alt="Screenshot 2024-08-06 at 12 14 35 PM" src="https://github.com/user-attachments/assets/d8ba46da-50d5-4d0c-b80e-a116c2c5a9b7">
     </p>
 
-#### 3. User Favourites   
+#### 4. User Favourites   
 
 This page features a section titled "Liked Recipes," displaying user-favored dishes such as Creamy Tuscan Chicken, Pancakes, Blueberry Muffins, and Greek Beef Pasta with high-quality images. A footer provides additional links about the company and an "Explore more..." button encourages further browsing of recipes. 
 
@@ -110,7 +110,7 @@ This page features a section titled "Liked Recipes," displaying user-favored dis
 <img width="442" alt="Screenshot 2024-08-06 at 12 18 40 PM" src="https://github.com/user-attachments/assets/0c4b29db-e233-4cb8-85f8-a0d6e5dc6a1e">
   </p>
 
-#### 4. Recipe page
+#### 5. Recipe page
 
 - Title and Heart Icon: At the top, the recipe title "Pancakes" appears with a heart icon beside it, indicating a feature to like the recipe.
   
@@ -130,7 +130,7 @@ This page design supports user interaction and provides all the necessary detail
 <img width="264" alt="Screenshot 2024-08-06 at 12 22 18 PM" src="https://github.com/user-attachments/assets/d036de7f-ed39-4ebd-9fc2-fd5ca699a345">
   </p>
 
-#### 5. New Recipe page
+#### 6. New Recipe page
 
 The page is designed for users to contribute their own recipes.
 
@@ -160,7 +160,7 @@ The page is designed for users to contribute their own recipes.
   <img width="458" alt="Screenshot 2024-08-06 at 12 25 50 PM" src="https://github.com/user-attachments/assets/15fe9e7c-2f57-4bbd-b8af-330cef65a524">
  </p>
 
-#### 6. Explore page
+#### 7. Explore page
 
 This page is designed to showcase a diverse array of recipes, allowing users to find and select dishes based on their cooking and preparation time preferences. 
 
@@ -174,7 +174,7 @@ This page is designed to showcase a diverse array of recipes, allowing users to 
   <img width="481" alt="Screenshot 2024-08-06 at 12 28 07 PM" src="https://github.com/user-attachments/assets/c08585a4-ea24-492d-a60b-c0a1c487eb9a">
  </p>
 
-#### 7. Search by ingredients page
+#### 8. Search by ingredients page
 
 This page allows users to search for recipes based on the ingredients they have.
 
@@ -192,7 +192,7 @@ This page allows users to search for recipes based on the ingredients they have.
 <img width="440" alt="Screenshot 2024-08-06 at 12 33 46 PM" src="https://github.com/user-attachments/assets/e75208d8-efd8-463f-885b-b0a8cb049a4a">
  </p>
   
-#### 8. Search by Name/Tag:
+#### 9. Search by Name/Tag:
 
 This page is designed for users to find recipes either by name or by associated tags.
 
@@ -208,7 +208,7 @@ This page is designed for users to find recipes either by name or by associated 
 <img width="700" alt="Screenshot 2024-08-06 at 12 36 21 PM" src="https://github.com/user-attachments/assets/f50a90cb-0c0b-4af7-b272-cda8906b6571">
  </p>
 
-#### 9. About Ricetta:
+#### 10. About Ricetta:
 
 This page showcases details about the platform and its team.
 
