@@ -2,7 +2,7 @@
 
 Ricetta, the recipe generator website, offers a wide array of features including curated recipes, expert cooking advice, and a unique recipe generator that allows users to input available ingredients and receive a customized list of recipes that can be made with those ingredients.
 
-Tools used: HTML - CSS - JavaScript - PHP - MySQL - BootStrap 
+**Tools used**: HTML - CSS - JavaScript - PHP - MySQL - BootStrap 
 
 ## Key Features:
 
