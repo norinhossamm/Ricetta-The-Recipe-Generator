@@ -213,12 +213,12 @@ This page is designed for users to find recipes either by name or by associated 
 This page showcases details about the platform and its team.
 
 <p align="center"> 
-<img width="1435" alt="Screenshot 2024-08-06![Uploading Screenshot 2024-08-06 at 12.39.41 PM.png…]()
+<img width="700" alt="Screenshot 2024-08-06![Uploading Screenshot 2024-08-06 at 12.39.41 PM.png…]()
  at 12 39 27 PM" src="https://github.com/user-attachments/assets/a1c53778-f81d-476e-a120-05717bbdef26">
  </p>
 
  <p align="center"> 
- <img width="1440" alt="Screenshot 2024-08-06 at 12 40 05 PM" src="https://github.com/user-attachments/assets/050f959f-f81f-4c42-b7b5-06db8ed742f6">
+ <img width="700" alt="Screenshot 2024-08-06 at 12 40 05 PM" src="https://github.com/user-attachments/assets/050f959f-f81f-4c42-b7b5-06db8ed742f6">
  </p>
 
  ## Technical Aspects:
